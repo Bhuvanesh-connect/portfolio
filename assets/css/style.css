@@ -385,6 +385,8 @@ header nav .nav_logo{
     background-color: transparent;
     border: 0;
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.25);
+    width: 100%;
+    max-width: 18rem
 }
 .Skill_section .content_row > div:nth-child(1) .card img{
     filter: invert(24%) sepia(88%) saturate(2562%) hue-rotate(9deg);
@@ -410,25 +412,34 @@ header nav .nav_logo{
 .Skill_section .content_row > div:nth-child(8) .card img{
     filter: invert(47%) sepia(61%) saturate(349%) hue-rotate(94deg);
 }
+.Skill_section .content_row > div:nth-child(9) .card img{
+    filter: invert(43%) sepia(79%) saturate(618%) hue-rotate(189deg) brightness(93%) contrast(94%);
+}
+.Skill_section .content_row > div:nth-child(10) .card img{
+    filter: invert(64%) sepia(73%) saturate(5083%) hue-rotate(174deg) brightness(100%) contrast(101%);
+}
 .Skill_section .card .card-header{
     position: relative;
     height: 150px;
     border-bottom: 0;
     background-color: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Skill_section .card .card-header img{
-    width: 120px;
-    height: 120px;
-    /* filter: invert(0.2); */
+    width: 110px;
+    height: 110px;
 }
 
 .Skill_section .card .card-body ._title{
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 0 5px 0;
 }
 .Skill_section .card .card-body ._description{
     font-size: 14px !important;
     color: #A3A3A3;
+    display: none;
 }
 
 
@@ -476,7 +487,7 @@ header nav .nav_logo{
 .Projects_section .project_list .work_card{
     width: 280px;
     padding: 20px;
-    background-color: currentColor;
+    background-color: rgb(39 39 39);
     border-radius: 4px;
     margin: 15px;
     text-align: left;
@@ -745,7 +756,7 @@ header nav .nav_logo{
     /*Skill Section*/
 
     .Skill_section .card .card-header {
-        height: 100px;
+        height: 80px;
         width: 120px;
         margin: 0 auto;
     }
@@ -826,8 +837,8 @@ header nav .nav_logo{
         height: 100px;
     }
     .Skill_section .card .card-header img{
-        width: 50px;
-        height: 80px;
+        width: 65px;
+        height: 65px;
     }
     .Skill_section .card .card-body {
         padding: 10px 2px;
